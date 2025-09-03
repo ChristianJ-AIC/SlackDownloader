@@ -1,6 +1,8 @@
 # Slack Console App (Interactive Version)
 
-This tool only uses Slack’s **official Web API**. 
+Tool for downloading **text-only** messages from #public channels, #private channels, private messages, group messages from Slack. 
+Exports to JSON files.
+No guarantees of the outcome! Use it & test / compare the reult.
 
 
 ## Features
