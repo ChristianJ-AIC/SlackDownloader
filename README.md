@@ -21,9 +21,9 @@ This tool only uses Slack’s **official Web API**.
 ## Configuring Slack to allow extraction
 
 1. Create a Slack App in your workspace
-	1.a. Go to https://api.slack.com/apps and click "Create New App" => "From scratch", and give it a name and select your workspace (AIC), and finally click "Create App"
-	1.b. In the "Install App" section, click "Install to Workspace" and authorize the app. You will get to OAuth tokens (user & bot), copy the user token.
-	1.c. The following may not be needed, but if you have issues: In the "OAuth & Permissions" section, add the following User Token Scopes: channels:history,channels:read,files:read,groups:history,groups:read,im:history,im:read,mpim:history,mpim:read
+1.a. Go to https://api.slack.com/apps and click "Create New App" => "From scratch", and give it a name and select your workspace (AIC), and finally click "Create App"
+1.b. In the "Install App" section, click "Install to Workspace" and authorize the app. You will get to OAuth tokens (user & bot), copy the user token.
+1.c. The following may not be needed, but if you have issues: In the "OAuth & Permissions" section, add the following User Token Scopes: channels:history,channels:read,files:read,groups:history,groups:read,im:history,im:read,mpim:history,mpim:read
 
 
 ## Running
